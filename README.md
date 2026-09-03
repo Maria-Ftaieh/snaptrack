@@ -106,3 +106,7 @@ All endpoints require the `X-API-Key` header.
 | `GET`    | `/users/{id}/scores`                | List a user's scores              |
 | `DELETE` | `/users/{id}/scores/{score_id}`     | Delete one score entry            |
 | `GET`    | `/users/{id}/stats`                 | Aggregated stats for charts       |
+
+## License
+
+Released under the [MIT License](LICENSE).
