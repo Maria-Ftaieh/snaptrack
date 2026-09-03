@@ -1,0 +1,21 @@
+[Unit]
+Description=SnapTrack FastAPI backend
+After=network.target
+
+[Service]
+Type=simple
+User=snaptrack
+Group=snaptrack
+WorkingDirectory=/opt/snaptrack
+EnvironmentFile=/opt/snaptrack/.env
+ExecStart=/opt/snaptrack/.venv/bin/uvicorn app.main:app --host 127.0.0.1 --port 8000
+Restart=on-failure
+RestartSec=3
+# Hardening
+NoNewPrivileges=true
+ProtectSystem=full
+ProtectHome=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

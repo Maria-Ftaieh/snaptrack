@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Environment / local data
+.env
+*.db
+*.db-journal
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+build/
+DerivedData/
+
+# Claude Code
+.claude/
