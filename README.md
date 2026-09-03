@@ -7,6 +7,12 @@ whenever you check it, and the app turns that history into charts and stats.
 The score is entered manually — SnapTrack does not connect to Snapchat or read
 any account. It only stores the numbers you type in.
 
+## Screenshots
+
+| People list | Person detail |
+|---|---|
+| ![People list](docs/screenshots/list.png) | ![Person detail](docs/screenshots/detail.png) |
+
 ## What it does
 
 - **People list** — add friends (name + optional Snapchat username).
